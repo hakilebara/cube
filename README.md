@@ -8,3 +8,23 @@ It follows the manager-worker pattern where one manager can coordinate tasks acr
 
 
 This project exists for educational purposes and should not be used in production.
+
+## Usage
+```
+cube [command]
+
+Available Commands:
+  help        Help about any command
+  manager     Manager command to operate a Cube manager node.
+  node        Node command to list nodes.
+  run         Run a new task.
+  status      Status command to list tasks.
+  stop        Stop a running task.
+  worker      Worker command to operate a Cube worker node.
+
+Flags:
+  -h, --help     help for cube
+  -t, --toggle   Help message for toggle
+
+Use "cube [command] --help" for more information about a command.
+```
